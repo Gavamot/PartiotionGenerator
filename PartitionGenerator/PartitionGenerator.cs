@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PartiotionGenerator
+namespace PartitionGenerator
 {
     class PartitionGenerator
     {

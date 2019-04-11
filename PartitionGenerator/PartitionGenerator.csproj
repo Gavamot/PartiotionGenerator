@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6B8F763E-1C56-4146-AB79-97F6F185E623}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PartiotionGenerator</RootNamespace>
-    <AssemblyName>PartiotionGenerator</AssemblyName>
+    <RootNamespace>PartitionGenerator</RootNamespace>
+    <AssemblyName>pgen</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

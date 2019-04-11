@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartiotionGenerator", "PartiotionGenerator\PartiotionGenerator.csproj", "{6B8F763E-1C56-4146-AB79-97F6F185E623}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionGenerator", "PartiotionGenerator\PartitionGenerator.csproj", "{6B8F763E-1C56-4146-AB79-97F6F185E623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

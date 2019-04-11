@@ -1,20 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using PartitionGenerator;
 
-namespace PartiotionGenerator
+namespace PartitionGenerator
 {
     class Config
     {
+        private const string DateFormat = "dd.MM.yyyy";
         public Config(string[] args)
         {
             TablePrefix = args[0];
             Duration = (Duration)Enum.Parse(typeof(Duration), args[1]);
-            From = DateTime.ParseExact(args[2], "dd.MM.yyyy", CultureInfo.InvariantCulture);
-            To = DateTime.ParseExact(args[3], "dd.MM.yyyy", CultureInfo.InvariantCulture);
+            From = DateTime.ParseExact(args[2], DateFormat, CultureInfo.InvariantCulture);
+            To = DateTime.ParseExact(args[3], DateFormat, CultureInfo.InvariantCulture);
             if (args.Length > 4)
                 FileName = args[4];
         }
