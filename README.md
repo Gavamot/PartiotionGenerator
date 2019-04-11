@@ -17,8 +17,8 @@ The problem is you must write much of text for that. And you will lose your time
 
 # Documentation
 Our solution is console application. You can use it via cmd or powershell terminal. We must pass next arguments:
-| Name          | Definition  | Required | values type | Sample  |
-| ------------- |-------------| -----    | ----- | ----- |              
+| Name | Definition | Required | Values type | Sample |
+| --- | --- | --- | --- | --- |             
 | prefix | It will be used for partitions name  | true | text one word | my_table |
 | duration | It is step between partitions |  true | [ d, m ] |  d |
 | from | Date for start partitions generation | true  | date by format = dd.mm.yyyy | 01.01.2000 |
