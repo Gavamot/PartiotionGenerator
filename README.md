@@ -21,9 +21,9 @@ Our solution is console application. You can use it via cmd or powershell termin
 | ------------- |-------------| -----    | ----- | ----- |              
 | prefix | It will be used for partitions name  | true | text one word | my_table |
 | duration | It is step between partitions |  true | [ d, m ] |  d |
-| from | Date for start partitions generation | true  | date by format = dd.mm.yyyy | 01.01.2000
-| to | Date for end partitions generation | true  | date by format = dd.mm.yyyy | 01.01.2001
-| fileName | Result will save to that file | false  | file name | result.txt
+| from | Date for start partitions generation | true  | date by format = dd.mm.yyyy | 01.01.2000 |
+| to | Date for end partitions generation | true  | date by format = dd.mm.yyyy | 01.01.2001 |
+| fileName | Result will save to that file | false  | file name | result.txt |
 
 # Exsample
 
